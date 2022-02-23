@@ -347,6 +347,220 @@ FROM mytable
     
 ````
 
+**Query order of execution**
+1. FROM and JOINs <br/>
+The FROM clause, and subsequent JOINs are first executed to determine the total working set of data that is being queried. This includes subqueries in this clause, and can cause temporary tables to be created under the hood containing all the columns and rows of the tables being joined.<br/>
+
+2. WHERE <br/>
+Once we have the total working set of data, the first-pass WHERE constraints are applied to the individual rows, and rows that do not satisfy the constraint are discarded. Each of the constraints can only access columns directly from the tables requested in the FROM clause. Aliases in the SELECT part of the query are not accessible in most databases since they may include expressions dependent on parts of the query that have not yet executed.<br/>
+
+
+3. GROUP BY <br/>
+The remaining rows after the WHERE constraints are applied are then grouped based on common values in the column specified in the GROUP BY clause. As a result of the grouping, there will only be as many rows as there are unique values in that column. Implicitly, this means that you should only need to use this when you have aggregate functions in your query. <br/>
+
+4. HAVING <br/>
+If the query has a GROUP BY clause, then the constraints in the HAVING clause are then applied to the grouped rows, discard the grouped rows that don't satisfy the constraint. Like the WHERE clause, aliases are also not accessible from this step in most databases. <br/>
+
+
+**examble**
+
+```
+SELECT director, SUM(domestic_sales + international_sales) as Cumulative_sales_from_all_movies
+FROM movies
+    INNER JOIN boxoffice
+        ON movies.id = boxoffice.movie_id
+GROUP BY director;
+```
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155299126-2148d6da-6741-4f97-8549-3ee0db47ca7e.png)
+---------------------------------------------------------------------------------------------------------------------------
+
+### SQL Lesson 13: Inserting rows
+when we want to insert data to row in tables we use the INSERT keyword .
+
+**Insert statement with values for all columns**
+
+```
+INSERT INTO mytable
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+       …;
+```
+
+**examble**
+
+``
+INSERT INTO movies VALUES (4, "Toy Story 4", "El Directore", 2015, 90);
+``
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155299664-31e75ffb-b31b-491d-857d-257db0d2f9df.png)
+----------------------------------------------------------------------------------------------------------------------
+
+### SQL Lesson 14: Updating rows
+
+when we want to update data from table we use the schema update .
+
+**Update statement with values**
+``
+UPDATE mytable
+SET column = value_or_expr, 
+    other_column = another_value_or_expr, 
+    …
+WHERE condition;
+``
+
+**examble**
+``
+UPDATE movies
+SET director = "John Lasseter"
+WHERE id = 2;
+
+``
+
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155300071-8888d703-61f5-4cf8-b87b-9d8c8fbd75e7.png)
+
+----------------------------------------------------------------------------------
+
+### SQL Lesson 15: Deleting rows
+when we want to delete data  we use the delete schema .
+
+
+**Delete statement with condition**
+
+``
+DELETE FROM mytable
+WHERE condition;
+
+``
+
+**examble**
+``
+DELETE FROM movies
+where year < 2005;
+``
+
+``
+DELETE FROM movies
+where director = "Andrew Stanton";
+``
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155301138-ac61cba9-6856-4200-a3e7-44bb7aa27ee0.png)
+
+---------------------------------------------------------------------------------------------------------------------------
+
+### SQL Lesson 16: Creating tables
+
+when we want to create table we use create table schema as folows:
+
+```
+Create table statement w/ optional table constraint and default value
+CREATE TABLE IF NOT EXISTS mytable (
+    column DataType TableConstraint DEFAULT default_value,
+    another_column DataType TableConstraint DEFAULT default_value,
+    …
+);
+
+```
+**Noth**
+we must select the data types of column as the table belwo:
+![image](https://user-images.githubusercontent.com/97642724/155301642-2d65433a-9df6-4afc-9d75-6137fb7d2628.png)
+
+**Table constraints**
+We aren't going to dive too deep into table constraints in this lesson, but each column can have additional table constraints on it which limit what values can be inserted into that column. This is not a comprehensive list, but will show a few common constraints that you might find useful.
+
+![image](https://user-images.githubusercontent.com/97642724/155301773-dfb1abab-b8a5-4024-8bd3-8ccabb73b525.png)
+
+
+**examble**
+
+```
+CREATE TABLE movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    director TEXT,
+    year INTEGER, 
+    length_minutes INTEGER
+);
+
+```
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155301954-138463b5-627f-45ef-8a10-f1c05cccf3d8.png)
+
+----------------------------------------------------------------------------------------------
+
+### SQL Lesson 17: Altering tables
+
+when we want to adding column  to table we use the adding column schema .
+
+**Altering table to add new column(s)**
+
+``
+ALTER TABLE mytable
+ADD column DataType OptionalTableConstraint 
+    DEFAULT default_value;
+    
+``
+
+**Removing columns**
+
+``
+ALTER TABLE mytable
+DROP column_to_be_deleted;
+
+``
+
+**Renaming the table**
+
+``
+ALTER TABLE mytable
+RENAME TO new_table_name;
+
+``
+**examble**
+``
+ALTER TABLE Movies
+  ADD COLUMN Aspect_ratio FLOAT DEFAULT 2.39;
+  
+``
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155302560-775367f8-7b30-4206-8353-dfe32f056b48.png)
+
+-----------------------------------------------------------------------
+
+### SQL Lesson 18: Dropping tables
+
+if we want to delete table we use the drop keyword as this statement.
+
+**Drop table statement**
+
+``
+DROP TABLE IF EXISTS mytable;
+
+``
+
+**examble**
+
+`
+DROP TABLE Movies;
+`
+**Leson Image**
+![image](https://user-images.githubusercontent.com/97642724/155303056-a9af84e5-d64b-4373-825f-cf6564407831.png)
+
+-----------------------------------------------------------
+![image](https://user-images.githubusercontent.com/97642724/155303175-ee169ee3-6738-4e3d-80c2-e98d6cb78b57.png)
+
+---------------------------------------------------------------------------------------------------------
+
+
+[All Leson resores it taken from =>](https://sqlbolt.com/)
+
+
+
+
+
+
+
 
 
 
