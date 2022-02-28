@@ -10,6 +10,7 @@ Readme05
 |  Read04     |  Arrays, Loops, Imports     |    [Link](https://mohd-saqr.github.io/reading-notes/Read04)   |
 |  Read05     |  Your Mindset    |    [Link](https://mohd-saqr.github.io/reading-notes/Readme05)   |
 |  Read06      |  Maps, primitives, File I/O   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme06)   |
+|  Read07      |  OOP   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme07)   |
 
 
 
