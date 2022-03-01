@@ -11,7 +11,7 @@ Readme05
 |  Read05     |  Your Mindset    |    [Link](https://mohd-saqr.github.io/reading-notes/Readme05)   |
 |  Read06      |  Maps, primitives, File I/O   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme06)   |
 |  Read07      |  OOP   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme07)   |
-|  Read08      |  OOP   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme08)   |
+|  Read08      |  Linked Lists   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme08)   |
 
 
 
