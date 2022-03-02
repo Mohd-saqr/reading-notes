@@ -12,6 +12,8 @@ Readme05
 |  Read06      |  Maps, primitives, File I/O   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme06)   |
 |  Read07      |  OOP   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme07)   |
 |  Read08      |  OOP   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme08)   |
+|  Read09      |  Inheritance and Interfaces   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme09)   |
+
 
 
 
