@@ -62,5 +62,5 @@ A focus on releasing an MVP means that developers potentially avoid lengthy and 
 
 
 [Referance](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) <br>
-[Referance](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))<br>
+[Referance](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))<br/>
 [Referance](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
