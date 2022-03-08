@@ -13,6 +13,7 @@ Readme05
 |  Read07      |  OOP   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme07)   |
 |  Read08      |  Linked Lists   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme08)   |
 |  Read09      |  Interfaces and Inheritance   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme09)   |
+|  Read10      |   OO Design |    [Link](https://mohd-saqr.github.io/reading-notes/Readme10)   |
 
 
 
