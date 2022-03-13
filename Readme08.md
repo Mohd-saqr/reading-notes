@@ -71,8 +71,80 @@ The average case makes a typical assumption about the possible inputs of size â€
 
 ![image](https://user-images.githubusercontent.com/97642724/156257097-e47a9664-cb7a-4461-83ae-2004e22073ae.png)
 
+-----------------------------------
+# Linked Lists
+
+A Linked List is a sequence of Nodes , thath connected to each other , we have many type of linked list :
+
+1- single linked list : in this type we have pointer to point to next node and each node contain pointer and value of linked list  
+
+2- Doubly  linked list : in this type we have pointer to point to next node and pointer to point to previous node .
+
+the Linked list contain some Node 
+1- head : it point in first node in linklist and if the linklist is empty it will be null
+
+2- tail : it point in last node in linked list and if the linklist have one node it will be head=tail
+
+![image](https://user-images.githubusercontent.com/97642724/158078666-c605b06a-5fbf-4129-82e2-0e7d1dd5c574.png)
+
+
+in linkedList we have some method : 
+
+1- insert : this method it take the value and insert it in first element .
+
+2- append : this method it take the value and add it after last element in link lsit
+
+3- include :this method it take the value and check if the linked list have the value it will be return true if the value exists and false if the value not exists.
+
+4 - insert before :this method it take the before value and value it will add the value before the before value.
+
+5 -insert after : this method it take the after value and value it will be add the value after the after value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  # [Resourses](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html)
-
-
-
+ 
+ # [Resourses](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html)
