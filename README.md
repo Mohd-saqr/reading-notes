@@ -15,6 +15,7 @@ Readme05
 |  Read09      |  Interfaces and Inheritance   |    [Link](https://mohd-saqr.github.io/reading-notes/Readme09)   |
 |  Read10      |   OO Design |    [Link](https://mohd-saqr.github.io/reading-notes/Readme10)   |
 |  Read11      |   WRRC and Java |    [Link](https://mohd-saqr.github.io/reading-notes/Readme11)   |
+|  Read12      |   Stacks and Queues |    [Link](https://mohd-saqr.github.io/reading-notes/Readme12)   |
 
 
 
