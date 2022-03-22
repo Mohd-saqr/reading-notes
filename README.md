@@ -18,6 +18,7 @@ Readme05
 |  Read12      |   Stacks and Queues |    [Link](https://mohd-saqr.github.io/reading-notes/Readme12)   |
 |  Read13      |   Spring |    [Link](https://mohd-saqr.github.io/reading-notes/Readme13)   |
 |  Read14      |   Spring |    [Link](https://mohd-saqr.github.io/reading-notes/Readme14)   |
+|  Read15      |Related Resources and Integration Testing |    [Link](https://mohd-saqr.github.io/reading-notes/Readme15)   |
 
 
 
