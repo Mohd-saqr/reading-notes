@@ -22,6 +22,7 @@ Readme05
 |  Read16      |Trees|    [Link](https://mohd-saqr.github.io/reading-notes/Readme16)   |
 |  Read17      |Spring Authentication|    [Link](https://mohd-saqr.github.io/reading-notes/Readme17)   |
 |  Read18      |Web App Security|    [Link](https://mohd-saqr.github.io/reading-notes/Readme18)   |
+| Read19|Purely functional programming|[Link](https://mohd-saqr.github.io/reading-notes/Readme19)|
 
 
 
