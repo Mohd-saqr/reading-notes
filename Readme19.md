@@ -21,5 +21,11 @@ A purely functional language is a language which only admits purely functional p
 ## Which languages are purely functional
 So, a pure functional language is simply one in which a function cannot observe things besides its inputs. Given that, we can split the current crop of Pacman-complete languages up into pure and impure ones:
 
-Pure languages
+Pure languages.
+
+
+
+## Refereance 
+[Purely functional programming, from Wikipedia](https://en.wikipedia.org/wiki/Purely_functional_programming)
+
  
