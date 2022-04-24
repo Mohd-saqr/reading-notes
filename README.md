@@ -24,7 +24,7 @@ Readme05
 |  Read18      |Web App Security|    [Link](https://mohd-saqr.github.io/reading-notes/Readme18)   |
 | Read19|Purely functional programming|[Link](https://mohd-saqr.github.io/reading-notes/Readme19)|
 | Read20|Spring Boot and OAuth2|[Link](https://mohd-saqr.github.io/reading-notes/Readme20)|
-
+| Read21|Android Fundamentals|[Link](https://mohd-saqr.github.io/reading-notes/Readme21)|
 
 
 
