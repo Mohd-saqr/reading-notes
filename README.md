@@ -25,7 +25,8 @@ Readme05
 | Read19|Purely functional programming|[Link](https://mohd-saqr.github.io/reading-notes/Readme19)|
 | Read20|Spring Boot and OAuth2|[Link](https://mohd-saqr.github.io/reading-notes/Readme20)|
 | Read21|Android Fundamentals|[Link](https://mohd-saqr.github.io/reading-notes/Readme21)|
-| Read22|ntents, Activities, and SharedPreferences|[Link](https://mohd-saqr.github.io/reading-notes/Readme22)|
+| Read22|intents, Activities, and SharedPreferences|[Link](https://mohd-saqr.github.io/reading-notes/Readme22)|
+| Read23|RecyclerView|[Link](https://mohd-saqr.github.io/reading-notes/Readme23)|
 
 
 
