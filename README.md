@@ -34,6 +34,10 @@ Readme05
 | Read28|GraphQL @connection|[Link](https://mohd-saqr.github.io/reading-notes/Readme28)|
 | Read29|Google’s app publishing guide|[Link](https://mohd-saqr.github.io/reading-notes/Readme29)|
 
+| Read30|Google’s app publishing guide|[Link](https://mohd-saqr.github.io/reading-notes/Readme29)|
+
+
+
 
 
 
