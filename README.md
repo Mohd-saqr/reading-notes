@@ -33,8 +33,8 @@ Readme05
 | Read27|Serverless and Amplify|[Link](https://mohd-saqr.github.io/reading-notes/Readme27)|
 | Read28|GraphQL @connection|[Link](https://mohd-saqr.github.io/reading-notes/Readme28)|
 | Read29|Google’s app publishing guide|[Link](https://mohd-saqr.github.io/reading-notes/Readme29)|
-
-| Read30|Google’s app publishing guide|[Link](https://mohd-saqr.github.io/reading-notes/Readme29)|
+| Read30|graph|[Link](https://mohd-saqr.github.io/reading-notes/Readme30)|
+| Read31|Cognito|[Link](https://mohd-saqr.github.io/reading-notes/Readme31)|
 
 
 
