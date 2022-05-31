@@ -35,6 +35,8 @@ Readme05
 | Read29|Google’s app publishing guide|[Link](https://mohd-saqr.github.io/reading-notes/Readme29)|
 | Read30|graph|[Link](https://mohd-saqr.github.io/reading-notes/Readme30)|
 | Read31|Cognito|[Link](https://mohd-saqr.github.io/reading-notes/Readme31)|
+| Read32|Notifications|[Link](https://mohd-saqr.github.io/reading-notes/Readme32)|
+
 
 
 
