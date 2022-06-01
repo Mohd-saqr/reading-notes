@@ -37,6 +37,8 @@ Readme05
 | Read31|Cognito|[Link](https://mohd-saqr.github.io/reading-notes/Readme31)|
 | Read32|Notifications|[Link](https://mohd-saqr.github.io/reading-notes/Readme32)|
 | Read33|S3|[Link](https://mohd-saqr.github.io/reading-notes/Readme33)|
+| Read34|Kinesis|[Link](https://mohd-saqr.github.io/reading-notes/Readme34)|
+
 
 
 
